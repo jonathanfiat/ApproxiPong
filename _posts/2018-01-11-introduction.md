@@ -4,7 +4,7 @@ title:  "Introduction"
 date:   2018-01-11 12:00:00 +0200
 comments: true
 description: "Introduction to the ApproxiPong Project and Reinforcement Learning in general."
-image: "/assets/figures/part0/fig1.png"
+image: "/assets/figures/part0/fig3.png"
 ---
 
 Pong is a classic game, a very abstract version of Ping-Pong, where two paddles attempt to reach a ball before it gets out of the table. It looks like this:
