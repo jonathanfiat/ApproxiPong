@@ -6,6 +6,7 @@ theme: minima
 
 baseurl: "/ApproxiPong"
 url: "https://jonathanfiat.github.io"
+permalink: "/:title"
 
 google_analytics: UA-112637451-1
 
