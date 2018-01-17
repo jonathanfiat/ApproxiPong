@@ -1,6 +1,6 @@
 title: ApproxiPong
+description: "An informal review of reinfocement learning algorithms using deep learning methods."
 
-# Build settings
 markdown: kramdown
 theme: minima
 

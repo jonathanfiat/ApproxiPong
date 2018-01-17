@@ -30,7 +30,7 @@ def generate_fig1():
         (common.LEFT - common.PADDLE_WIDTH - common.BALL_RADIUS, 0.6 - common.HPL),
         common.PADDLE_WIDTH, 2 * common.HPL, color=common.PADDLE_COLOR)
     r = patches.Rectangle(
-        (common.RIGHT + common.BALL_RADIUS, -0.5 - common.HPL),
+        (common.RIGHT + common.BALL_RADIUS, - 0.5 - common.HPL),
         common.PADDLE_WIDTH, 2 * common.HPL, color=common.PADDLE_COLOR)
     ball = patches.Circle((0.6, 0.6), radius=common.BALL_RADIUS, color=common.BALL_COLOR)
 
@@ -287,7 +287,7 @@ def generate_fig5():
         fig = Figure()
         canvas = FigureCanvas(fig)
         ax = fig.add_subplot(111, projection='3d')
-        ax.plot_wireframe(X[:, None], Y[None, :], Z, rstride=3, cstride=8)
+        ax.plot_wireframe(X[:, None], Y[None, :], Z_avg, rstride=3, cstride=8)
         # ax.plot_wireframe(X[:, None], Y[None, :], Z_min, rstride=3, cstride=8)
         # ax.plot_wireframe(X[:, None], Y[None, :], Z_max, rstride=3, cstride=8)
         ax.set_xlabel("Sample Size")

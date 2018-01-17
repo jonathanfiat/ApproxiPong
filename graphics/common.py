@@ -141,7 +141,7 @@ def base_plot(df, part, cut=30, xlabel="Number of Episodes", jump=5):
         ax1.set_xlabel(xlabel)
         ax1.set_ylabel("Win Rate")
         ax2.set_xlabel("Time (seconds)")
-        fig.savefig("../docs/assests/figures/part{}/plot_{}.png".format(part, df.name))
+        fig.savefig("../docs/assets/figures/part{}/plot_{}.png".format(part, df.name))
 
 
 def generate_plots(dfs, part):
@@ -182,7 +182,7 @@ def compare_plots(dfs, part, cut=30, xlabel="Number of Episodes", jump=5,
         
         ax.legend()
         
-        fig.savefig("figures/part{}/compare_{}.png".format(part,
+        fig.savefig("../docs/assets/figures/part{}/compare_{}.png".format(part,
             "_".join([df.name for df in dfs])))
 
 
@@ -191,5 +191,5 @@ def save_next_fig(part_num, fig):
         save_next_fig.fig_num += 1
     except AttributeError:
         save_next_fig.fig_num = 1
-    fig.savefig("figures/part{}/fig{}.png".format(part_num,
+    fig.savefig("../docs/assets/figures/part{}/fig{}.png".format(part_num,
         save_next_fig.fig_num))

@@ -3,6 +3,8 @@ layout: post
 title:  "Conclusions & Questions"
 date:   2018-01-18 12:00:00 +0200
 comments: true
+description: "Concluding remarks about the ApproxiPong project."
+image: "/assets/figures/part0/fig2.png"
 ---
 
 # Things that could appear here:

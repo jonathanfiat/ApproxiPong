@@ -79,5 +79,34 @@ def generate_fig1():
     common.save_next_fig(PART_NUM, fig)
 
 
+def generate_fig2():
+    fig = Figure(figsize=(5, 5))
+    canvas = FigureCanvas(fig)
+    ax = fig.add_axes((0., 0., 1., 1.))
+    common.set_ax_params(ax)
+    ax.set_facecolor((0., 0., 0.))
+    ax.axis([
+        common.LEFT - common.PADDLE_WIDTH - common.BALL_RADIUS,
+        common.RIGHT + common.PADDLE_WIDTH + common.BALL_RADIUS,
+        common.BOTTOM - common.BALL_RADIUS,
+        common.TOP + common.BALL_RADIUS,
+    ])
+
+    l = patches.Rectangle(
+        (common.LEFT - common.PADDLE_WIDTH - common.BALL_RADIUS, - 0.3 - common.HPL),
+        common.PADDLE_WIDTH, 2 * common.HPL, color=common.PADDLE_COLOR)
+    r = patches.Rectangle(
+        (common.RIGHT + common.BALL_RADIUS, 0.8 - common.HPL),
+        common.PADDLE_WIDTH, 2 * common.HPL, color=common.PADDLE_COLOR)
+    ball = patches.Circle((0.6, 0.6), radius=common.BALL_RADIUS, color=common.BALL_COLOR)
+
+    ax.add_patch(l)
+    ax.add_patch(r)
+    ax.add_patch(ball)
+    
+    common.save_next_fig(PART_NUM, fig)
+
+
 if __name__ == "__main__":
     generate_fig1()
+    generate_fig2()
