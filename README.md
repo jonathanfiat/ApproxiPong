@@ -77,3 +77,16 @@ This directory contains a single file for every learning algorithm, fully implem
 This directory contains everything that doesn't fit within the other two, mostly pieces of code that are common for more than one algorithm.
 
 # Examples
+
+    python learn.py imitation -sp /tmp/Pong/Imitation_vanilla/
+    python learn.py imitation --decomposed -sp /tmp/Pong/Imitation_target/ 
+    python learn.py imitation --artificial -sp /tmp/Pong/Imitation_artificial/
+    python learn.py imitation --train_size 2000000 --test_size 1000000 -num_iters 600 -sp /tmp/Pong/ImitationBigData/
+    python learn.py value_iteration -sp /tmp/Pong/ValueIteration/
+    python learn.py deep_value_iteration
+    python learn.py policy_gradient -sp /tmp/Pong/PolicyGradient
+    python learn.py success_learning -sf 1
+    python learn.py deep_q_deepmind -sp /tmp/Pong/DeepQ_Deepmind/
+    python learn.py deep_q -sf 1 --epsilon_frame 6 -qli 1 -qss 0
+    python learn.py actor_critic -sf 1
+    python learn.py deep_p -sf 1
