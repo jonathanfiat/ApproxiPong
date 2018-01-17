@@ -7,7 +7,7 @@ theme: minima
 baseurl: "/ApproxiPong"
 url: "https://jonathanfiat.github.io/"
 
-google-analytics: true
+google_analytics: true
 
 plugins:
   - jekyll-seo-tag
