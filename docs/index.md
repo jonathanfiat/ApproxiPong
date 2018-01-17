@@ -1,7 +1,6 @@
 ---
 layout: page
 title: ApproxiPong
-categories:
 ---
 
 Reinforcement Learning is all the rage nowadays. It doesn’t matter if you want to play [Atari 2600 games][atari], to master [go][alpha-go] ([twice][alpha-go-zero]) or even [chess][alpha-zero], you should probably use RL.
