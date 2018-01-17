@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Conclusions & Questions"
-date:   2018-01-17 12:00:00 +0200
-categories:
+date:   2018-01-18 12:00:00 +0200
 ---
 
 # Things that could appear here:
