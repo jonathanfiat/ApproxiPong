@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction"
 date:   2018-01-11 12:00:00 +0200
-categories:
+comments: true
 ---
 
 Pong is a classic game, a very abstract version of Ping-Pong, where two paddles attempt to reach a ball before it gets out of the table. It looks like this:

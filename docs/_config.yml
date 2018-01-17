@@ -11,3 +11,6 @@ google_analytics: true
 
 plugins:
   - jekyll-seo-tag
+
+disqus:
+  shortname: approxipong
