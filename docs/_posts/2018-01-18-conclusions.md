@@ -17,4 +17,23 @@ comments: true
 
 # References
 
-Books, articles, etc.
+## Books
+
+1. [Algorithms for Reinforcement Learning][arl], by Csaba Szepesvári
+2. [Reinforcement Learning: An Introduction][rlai], by Richard S. Sutton and Andrew G. Barto
+
+## Articles
+
+1. [Human-level control through deep reinforcement learning][hlctdrl]
+2. [Mastering the game of Go with deep neural networks and tree search][mtgogwdnnats]
+3. [Mastering the game of Go without human knowledge][mtgogwhk]
+4. [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm][mcasbspwagrla]
+5. [Deep Reinforcement Learning with Double Q-learning][drlwdql]
+
+[arl]: https://sites.ualberta.ca/~szepesva/RLBook.html
+[rlai]: http://incompleteideas.net/book/the-book-2nd.html
+[hlctdrl]: https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf
+[mtgogwdnnats]: https://storage.googleapis.com/deepmind-media/alphago/AlphaGoNaturePaper.pdf
+[mtgogwhk]: http://www.nature.com/articles/nature24270.pdf
+[mcasbspwagrla]: https://arxiv.org/abs/1712.01815
+[drlwdql]: https://arxiv.org/abs/1509.06461
