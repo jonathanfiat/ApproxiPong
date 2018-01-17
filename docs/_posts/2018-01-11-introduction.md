@@ -29,7 +29,7 @@ Our goal is not to develop the best RL algorithm, but to compare some different 
 
 # Our Code
 
-The code is available in github, as well as usage instruction and (some) documentation. You are more than welcome to download it, test it yourself and implement your own variations on those algorithms. Here are some general useful commands:
+The code is available in [github][our-code], as well as usage instruction and (some) documentation. You are more than welcome to download it, test it yourself and implement your own variations on those algorithms. Here are some general useful commands:
 
     python play.py # play using the arrows against “Follow”
     python play.py -r predict # watch games between “Follow” and “Predict”
@@ -46,4 +46,5 @@ Now that we're all on the same page, you should move on to [Chapter 1: When You 
 [baghcahl]: https://en.wikipedia.org/wiki/Bagh-Chal
 [tafl]: Tafl_games
 [tensorflow]: https://www.tensorflow.org/
+[our-code]: https://github.com/jonathanfiat/ApproxiPong
 [chapter1]: {{ site.baseurl }}{% post_url 2018-01-12-chapter1 %}
