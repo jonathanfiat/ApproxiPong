@@ -20,7 +20,7 @@ And if you want GUI and the ability to re-create our illustration, you'll also n
 
 ## Running the Code
 
-### learn.py
+### *learn.py*
 
 Executing
 
@@ -32,7 +32,7 @@ will run "algorithm". Every algorithm has many options of its own, but all of th
 
 will run the "Imitation" algorithm.
 
-### play.py
+### *play.py*
 
 Executing
 
@@ -44,7 +44,7 @@ will open a window and will play Pong. By default, the left paddle is controlled
 
 will show games between "Follow" and the learnt policy stored in /tmp/Pong/Imitation.
 
-### match.py and match_mcts.py
+### *match.py* and *match_mcts.py*
 
 Executing
 
@@ -56,4 +56,24 @@ will perform many games between any two policies, in a much more efficient way t
 
 will perform 100 games between "Follow" and the learnt policy stored in /tmp/Pong/Imitation.
 
-match_mcts.py does the same thing, but specifically for the AlphaPongZero algorithm, and it will use MCTS while playing (making it much much slower - it can take a few hours to run 100 games).
+*match_mcts.py* does the same thing, but specifically for the AlphaPongZero algorithm, and it will use MCTS while playing (making it much much slower - it can take a few hours to run 100 games).
+
+# Directory Structure
+
+## graphics/
+
+This directory contains the code (and data) required to generate the illustrations in our website. Unless you want to create similar but not identical illustrations you can ignore it.
+
+## pong/mechanics/
+
+This directory contains all the code required for the Pong game - the game logic and the GUI. It also contains the file *policies.py* that implements the different policies.
+
+## pong/learning/
+
+This directory contains a single file for every learning algorithm, fully implementing that specific algorithm. If you want to understand or modify one of the learning algorithm, you should find the relevant file in this directory and start from there.
+
+## pong/utils/
+
+This directory contains everything that doesn't fit within the other two, mostly pieces of code that are common for more than one algorithm.
+
+# Examples
