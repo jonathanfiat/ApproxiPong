@@ -38,11 +38,11 @@ Anyway, we hope you’ll enjoy reading through. And if you don’t know yet wher
 [alpha-zero]: https://arxiv.org/abs/1712.01815
 [karpathy]: http://karpathy.github.io/
 [pong-pixels]: http://karpathy.github.io/2016/05/31/rl/
+[intro]: {{ site.baseurl }}{% post_url 2018-01-11-introduction %}
 [chapter1]: {{ site.baseurl }}{% post_url 2018-01-12-chapter1 %}
 [chapter2]: {{ site.baseurl }}{% post_url 2018-01-13-chapter2 %}
 [chapter3]: {{ site.baseurl }}{% post_url 2018-01-14-chapter3 %}
 [chapter4]: {{ site.baseurl }}{% post_url 2018-01-15-chapter4 %}
 [chapter5]: {{ site.baseurl }}{% post_url 2018-01-16-chapter5 %}
 [chapter6]: {{ site.baseurl }}{% post_url 2018-01-17-chapter6 %}
-[intro]: {{ site.baseurl }}{% post_url 2018-01-11-introduction %}
 [conclusions]: {{ site.baseurl }}{% post_url 2018-01-18-conclusions %}
