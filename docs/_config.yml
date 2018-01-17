@@ -2,7 +2,7 @@ title: ApproxiPong
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: minima
 
 baseurl: "/ApproxiPong"
 url: "https://jonathanfiat.github.io/"
