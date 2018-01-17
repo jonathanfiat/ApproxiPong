@@ -13,8 +13,8 @@ import common
 PART_NUM = 1
 
 
-def generate_fig1():
-    fig = Figure(figsize=(5, 5))
+def generate_fig1(width=5):
+    fig = Figure(figsize=(width, 5))
     canvas = FigureCanvas(fig)
     ax = fig.add_axes((0., 0., 1., 1.))
     common.set_ax_params(ax)
@@ -314,3 +314,4 @@ if __name__ == "__main__":
     generate_fig3()
     generate_fig4()
     generate_fig5()
+    generate_fig1(10)

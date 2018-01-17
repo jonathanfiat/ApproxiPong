@@ -8,8 +8,8 @@ import common
 PART_NUM = 3
 
 
-def generate_fig1():
-    fig = Figure(figsize=(4, 4))
+def generate_fig1(width=4):
+    fig = Figure(figsize=(width, 4))
     canvas = FigureCanvas(fig)
     ax = fig.add_axes((0.01, 0.01, 0.98, 0.98))
     common.set_ax_params(ax)
@@ -120,3 +120,4 @@ if __name__ == "__main__":
         title="Win Rate of Alpha-Pong-Zero", show_time=True)
     common.compare_plots(DATA_FILES[2:], PART_NUM,
         title="Win Rate of Alpha-Pong-Zero, trained using self-play", show_time=True)
+    generate_fig1(8)

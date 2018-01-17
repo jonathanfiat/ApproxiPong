@@ -113,13 +113,13 @@ def generate_fig1():
     common.save_next_fig(PART_NUM, fig)
 
 
-def generate_fig2():
+def generate_fig2(width=4):
     
     for i, s, c, a, l in [
         (10, 0, "red", 1., "Failed Episode"),
         (11, 180, "purple", 0.5, "Negative Failed Episode")]:
 
-        fig = Figure(figsize=(4, 4))
+        fig = Figure(figsize=(width, 4))
         canvas = FigureCanvas(fig)
         ax = fig.add_subplot(1, 1, 1)    
         common.set_ax_params(ax)
@@ -239,3 +239,4 @@ if __name__ == "__main__":
     generate_fig2()
     generate_fig3()
     common.generate_plots(DATA_FILES, PART_NUM)
+    generate_fig2(8)

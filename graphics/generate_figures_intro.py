@@ -8,7 +8,7 @@ import common
 PART_NUM = 0
 
 
-def generate_fig1():
+def generate_fig1(width=5):
 
     def arrow(start, end):
         return common.arrow_by_start_end(start, end,
@@ -18,7 +18,7 @@ def generate_fig1():
             alpha=0.5,
             color="black")
             
-    fig = Figure(figsize=(5, 5))
+    fig = Figure(figsize=(width, 5))
     canvas = FigureCanvas(fig)
     ax = fig.add_axes((0.01, 0.01, 0.98, 0.98))
     common.set_ax_params(ax)
@@ -80,7 +80,7 @@ def generate_fig1():
 
 
 def generate_fig2():
-    fig = Figure(figsize=(5, 5))
+    fig = Figure(figsize=(10, 5))
     canvas = FigureCanvas(fig)
     ax = fig.add_axes((0., 0., 1., 1.))
     common.set_ax_params(ax)
@@ -110,3 +110,4 @@ def generate_fig2():
 if __name__ == "__main__":
     generate_fig1()
     generate_fig2()
+    generate_fig1(10)

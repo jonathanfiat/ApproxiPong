@@ -212,8 +212,8 @@ def generate_fig7():
     common.save_next_fig(PART_NUM, fig)
 
 
-def generate_fig8():
-    fig = Figure(figsize=(8, 8))
+def generate_fig8(width=8):
+    fig = Figure(figsize=(width, 8))
     canvas = FigureCanvas(fig)
     gs = gridspec.GridSpec(4, 4)
     fig.suptitle("Visual Comparison of *-Q-* Algorithms")
@@ -336,3 +336,4 @@ if __name__ == "__main__":
     generate_fig7()
     generate_fig8()
     common.generate_plots(DATA_FILES, PART_NUM)
+    generate_fig8(16)

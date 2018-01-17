@@ -1,3 +1,4 @@
+from pathlib import Path
 from collections import namedtuple
 import re
 
@@ -141,7 +142,9 @@ def base_plot(df, part, cut=30, xlabel="Number of Episodes", jump=5):
         ax1.set_xlabel(xlabel)
         ax1.set_ylabel("Win Rate")
         ax2.set_xlabel("Time (seconds)")
-        fig.savefig("../docs/assets/figures/part{}/plot_{}.png".format(part, df.name))
+        p = Path("figures/part{}/".format(part))
+        p.mkdir(parents=True, exist_ok=True)
+        fig.savefig(str(p / "plot_{}.png".format(df.name)))
 
 
 def generate_plots(dfs, part):
@@ -181,15 +184,20 @@ def compare_plots(dfs, part, cut=30, xlabel="Number of Episodes", jump=5,
             fig.subplots_adjust(top=0.8)
         
         ax.legend()
-        
-        fig.savefig("../docs/assets/figures/part{}/compare_{}.png".format(part,
-            "_".join([df.name for df in dfs])))
+
+        p = Path("figures/part{}/".format(part))
+        p.mkdir(parents=True, exist_ok=True)
+
+        fig.savefig(str(p / "compare_{}.png".format(
+            "_".join([df.name for df in dfs]))))
 
 
-def save_next_fig(part_num, fig):
+def save_next_fig(part, fig):
     try:
         save_next_fig.fig_num += 1
     except AttributeError:
         save_next_fig.fig_num = 1
-    fig.savefig("../docs/assets/figures/part{}/fig{}.png".format(part_num,
-        save_next_fig.fig_num))
+
+    p = Path("figures/part{}/".format(part))
+    p.mkdir(parents=True, exist_ok=True)
+    fig.savefig(str(p / "fig{}.png".format(save_next_fig.fig_num)))
