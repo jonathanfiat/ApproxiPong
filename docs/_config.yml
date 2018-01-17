@@ -6,3 +6,6 @@ theme: minima
 
 baseurl: "/ApproxiPong"
 url: "https://jonathanfiat.github.io/"
+
+plugins:
+  - jekyll-seo-tag
