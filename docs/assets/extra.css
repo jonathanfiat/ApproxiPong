@@ -1,0 +1,41 @@
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(120, 150, 255, 0.3);
+    padding: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+}
+
+figure iframe, img, canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
