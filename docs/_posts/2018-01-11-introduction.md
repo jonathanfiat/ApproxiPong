@@ -46,4 +46,4 @@ Now that we're all on the same page, you should move on to [Chapter 1: When You 
 [baghcahl]: https://en.wikipedia.org/wiki/Bagh-Chal
 [tafl]: Tafl_games
 [tensorflow]: https://www.tensorflow.org/
-[chapter1]: {{ site.baseurl }}{% post_url 2018-01-11-chapter1 %}
+[chapter1]: {{ site.baseurl }}{% post_url 2018-01-12-chapter1 %}
