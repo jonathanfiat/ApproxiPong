@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This website & the related code are a part of Jonathan Fiat MSc. in CS, under the supervision of [Shai Shalev-Shwartz][shai], both from the [Hebrew University in Jerusalem][huji].
+This website and related code are a part of Jonathan Fiat MSc. in CS, under the supervision of [Shai Shalev-Shwartz][shai], both from the [Hebrew University in Jerusalem][huji].
 
 All the content of this website are free to use under the terms of the [MIT license][license].
 
