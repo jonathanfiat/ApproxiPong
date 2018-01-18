@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This website & the related code are a part of Jonathan Fiat MSc. in CS, under the supervision of [Shai Shalev-Shwartz][shai], both from the [Hebrew University in Jerusalem][huji].
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+All the content of this website are free to use under the terms of the [MIT license][license].
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[shai]: https://www.cs.huji.ac.il/~shais/
+[huji]: http://new.huji.ac.il/en
+[license]: https://github.com/jonathanfiat/ApproxiPong/blob/gh-pages/LICENSE
