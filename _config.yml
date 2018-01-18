@@ -12,6 +12,7 @@ google_analytics: UA-112637451-1
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 disqus:
   shortname: approxipong
