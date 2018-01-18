@@ -26,7 +26,7 @@ The blog is structured as follows:
 
 - In [Chapter 6: Learning While Playing Part 3][chapter6], we present Actor-Critic methods: methods that attempt to combine the other algorithms we described, and indeed reach the best results in our experiments.
 
-- In the [Conclusions][conclusions], we raise some questions and ideas for further research.
+- Finally, there are some [References][references] for those who are interested.
 
 Should you read this article? If you’re interested in RL, but can’t find your feet in all the mess of concepts and algorithms, you should certainly read this. If you’re an RL expert, you probably already know most of it, but you might find some of the empirical results interesting. If you’re not at all interested in RL, then you should most certainly not read this article. Here, play some Pong instead:
 
@@ -47,4 +47,4 @@ Anyway, we hope you’ll enjoy reading through. And if you don’t know yet wher
 [chapter4]: {{ site.baseurl }}{% post_url 2018-01-15-chapter4 %}
 [chapter5]: {{ site.baseurl }}{% post_url 2018-01-16-chapter5 %}
 [chapter6]: {{ site.baseurl }}{% post_url 2018-01-17-chapter6 %}
-[conclusions]: {{ site.baseurl }}{% post_url 2018-01-18-conclusions %}
+[references]: {{ site.baseurl }}{% post_url 2018-01-18-references %}
